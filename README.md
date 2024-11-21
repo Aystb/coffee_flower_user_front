@@ -1,1 +1,3 @@
 # coffee_flower_user_front
+这里是咖啡花价市场的用户端前端
+采用uniapp开发
