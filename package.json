@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "uview-plus": "^3.3.45"
+  },
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}

@@ -12,6 +12,16 @@
 	}
 </script>
 
-<style>
+
+<style lang="scss">
+	/*每个页面公共scss */
+	@import "uni_modules/uview-plus/index.scss";
+	
+	@import "./styles/flex.css";
+
+	@import "./styles/text.css";
+	
+	@import "./styles/margin.css";
+    @import "./styles/color.css";
 	/*每个页面公共css */
 </style>

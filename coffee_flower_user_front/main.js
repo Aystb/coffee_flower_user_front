@@ -1,4 +1,7 @@
 import App from './App'
+// 引入全局uview-plus
+import uviewPlus from './uni_modules/uview-plus/index.js'
+
 
 // #ifndef VUE3
 import Vue from 'vue'
@@ -14,7 +17,11 @@ app.$mount()
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
 export function createApp() {
+ 
   const app = createSSRApp(App)
+  app.use(uviewPlus)
+
+  
   return {
     app
   }
