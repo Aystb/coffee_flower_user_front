@@ -9,12 +9,12 @@
 
 <script setup>
 	function jumpToHome(){
-		uni.redirectTo({ url: 'pages/pages/home' })
+		uni.redirectTo({ url: '/pages/pages/home' })
 
 }
 
 function jumpTomarkets(){
-	uni.redirectTo({ url: 'pages/pages/markets' })
+	uni.redirectTo({ url: '/pages/pages/markets' })
 
 }
 
